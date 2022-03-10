@@ -1,0 +1,9 @@
+Pre-work : Settings -> Editor Perferences -> Key Bindings -> Sublime Text ✔
+
+1. 按住CTRL可產生多個同時編輯位置
+
+2. CTRL + D 可以選取相同的字詞並同時進行修改
+
+3. CTRL + L 可以選取整行內容 
+
+4. CTRL + / 可以註解該行內容 ( bool )
