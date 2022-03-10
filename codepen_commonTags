@@ -1,0 +1,7 @@
+<b> text </b>  bold 粗體
+<i> text </i>  italic 斜體
+<p> text </p>  paragraph 文字段落
+<b> text </b>  line break 換行
+
+<h1> text </h1> headline 主標題
+<h2>, <h3>, <h4>, <h5>, <h6> 次標題 ...次次標題...
