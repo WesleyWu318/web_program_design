@@ -7,3 +7,6 @@ Pre-work : Settings -> Editor Perferences -> Key Bindings -> Sublime Text ✔
 3. CTRL + L 可以選取整行內容 
 
 4. CTRL + / 可以註解該行內容 ( bool )
+
+5. tag 打完後按 tab 可以自動生成完整的程式
+   Ex. h1 + tab => <h1> </h1>
