@@ -12,3 +12,14 @@
 <a href=" " target = "blank"> text </a> hyperlink 超連結功能
   Ps. href = URL 統一資源定位符（Uniform Resource Locator) 網頁位址
       target = "blank" //指定打開鏈接文檔的位置為新視窗
+      
+<ol style = "margin-left:40px;">  orderlist 有項表
+    <li> first </li>
+    <li> second </li>
+    <li> third </li>
+</ol> 
+  Ps. margin-left 與左距得像素距離
+  
+<ul> </ul> unorderlist 無項表
+
+<div> </div> division 分割
