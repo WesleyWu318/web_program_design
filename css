@@ -1,0 +1,15 @@
+** botton ** 
+li{ // 設定list的css
+  display: inline-block; // 保持行內元素，但是所有margin, padding都適用
+  border: solid 1px black; // 邊界寬度
+  border-radius: 5px; // 圓角
+  
+  padding: 5px; // 字與邊界的間距
+  padding-left: 20px; // 字與左邊界的間距(覆蓋前面設定)
+  padding-right: 20px; // 字與右邊界的間距(覆蓋前面設定)
+  
+  font-family: 微軟正黑體; // 字形
+  letter-spacing: 1px; // 字間距
+  
+  background-color: #99ff33 // 背景顏色
+}
