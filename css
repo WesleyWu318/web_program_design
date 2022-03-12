@@ -1,4 +1,4 @@
-.botton{
+.botton{ // a class
   display: inline-block; // 保持行內元素，但是所有margin, padding都適用
     Ps. inline 只有左右padding能改
   border: solid 1px black; // 邊界寬度
@@ -14,4 +14,33 @@
   letter-spacing: 1px; // 字間距
   
   background-color: #99ff33 // 背景顏色
+}
+
+***** css 定位方式 ******
+
+.static{ // a class
+  position: static; // 預設
+  left: 30px; // 不會移動
+}
+
+.relative{ // a class
+  position: relative;
+  left: 30px; // 可作與元素位置的相對定位
+  top: 30px; // 可作與元素位置的相對定位
+} 
+
+.absolute{ // a class
+  position: absolute;
+  right: 50px; // 可作與畫面的絕對定位
+  top: 50px; // 可作與畫面的絕對定位
+}
+
+.fixed{ // a class
+  position: fixed;
+  right: 50px; // 固定在視窗的絕對位置(如 : 廣告)
+  top: 200px; // 固定在視窗的絕對位置(如 : 廣告)
+}
+
+body{ // 整份網頁的主要部分
+  height: 2000px; // 可以往下拉
 }
