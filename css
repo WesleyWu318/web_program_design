@@ -31,8 +31,8 @@
 
 .absolute{ // a class
   position: absolute;
-  right: 50px; // 可作與畫面的絕對定位
-  top: 50px; // 可作與畫面的絕對定位
+  right: 50px; // 可作與畫面的絕對定位(如 : 給座標)
+  top: 50px; // 可作與畫面的絕對定位(如 : 給座標)
 }
 
 .fixed{ // a class
