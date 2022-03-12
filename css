@@ -1,17 +1,21 @@
 .botton{ // a class
-  display: inline-block; // 保持行內元素，但是所有margin, padding都適用
+  display: inline-block;   // 保持行內元素，但是所有margin, padding都適用
     Ps. inline 只有左右padding能改
   border: solid 1px black; // 邊界寬度
-  border-radius: 5px; // 圓角
+  border-radius: 5px;      // 圓角
   
-  padding: 5px; // 字與邊界的間距
-  padding-left: 20px; // 字與左邊界的間距(覆蓋前面設定)
-  padding-right: 20px; // 字與右邊界的間距(覆蓋前面設定)
+  padding: 5px;         // 字與邊界的間距(內間隔)
+  padding-left: 20px;   // 字與左邊界的間距(覆蓋前面設定，以後面的css為準)
+  padding-right: 20px;  // 字與右邊界的間距(覆蓋前面設定，以後面的css為準)
   
-  color: white // 字體顏色
+  margin-left: 20px;  // 與左外界元素的距離(外間隔)
+  margin-right: 20px; // 與右外界元素的距離(外間隔)
+  
+  color: white            // 字體顏色
   font-family: 微軟正黑體; // 字形
-  font-size: 20px // 字體大小
-  letter-spacing: 1px; // 字間距
+  font-size: 20px         // 字體大小
+  font-weight: 600;       // 字體粗細
+  letter-spacing: 1px;    // 字間距
   
   background-color: #99ff33 // 背景顏色
 }
@@ -20,27 +24,31 @@
 
 .static{ // a class
   position: static; // 預設
-  left: 30px; // 不會移動
+  left: 30px;     // 不會移動
 }
 
-.relative{ // a class
+.relative{        // a class
   position: relative;
-  left: 30px; // 可作與元素位置的相對定位
-  top: 30px; // 可作與元素位置的相對定位
+  left: 30px;     // 可作與元素位置的相對定位
+  top: 30px;      // 可作與元素位置的相對定位
 } 
 
-.absolute{ // a class
+.absolute{        // a class
   position: absolute;
-  right: 50px; // 可作與畫面的絕對定位(如 : 給座標)
-  top: 50px; // 可作與畫面的絕對定位(如 : 給座標)
+  right: 50px;    // 可作與畫面的絕對定位(如 : 給座標)
+  top: 50px;      // 可作與畫面的絕對定位(如 : 給座標)
 }
+  Ps. absolute 只能放在 relative, absolute, fixed ( 可以定位的上層元素 ) 裡，不能放在static 中。
+    Ex.<div class="relative"> relative會自動排列且調整偏移
+          <div class="absolute"> absolute可絕對定位 </div>  
+       </div>
 
 .fixed{ // a class
   position: fixed;
-  right: 50px; // 固定在視窗的絕對位置(如 : 廣告)
-  top: 200px; // 固定在視窗的絕對位置(如 : 廣告)
+  right: 50px;    // 固定在視窗的絕對位置(如 : 廣告)
+  top: 200px;     // 固定在視窗的絕對位置(如 : 廣告)
 }
 
 body{ // 整份網頁的主要部分
-  height: 2000px; // 可以往下拉
+  height: 2000px;  // 讓網頁可以往下拉
 }
