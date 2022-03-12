@@ -15,7 +15,8 @@
   font-family: 微軟正黑體; // 字形
   font-size: 20px         // 字體大小
   font-weight: 600;       // 字體粗細
-  letter-spacing: 1px;    // 字間距
+  letter-spacing: 1px;    // 字間間距
+  line-height: 30px;      // 字間行距
   
   background-color: #99ff33 // 背景顏色
 }
