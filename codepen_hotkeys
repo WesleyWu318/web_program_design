@@ -10,3 +10,4 @@ Pre-work : Settings -> Editor Perferences -> Key Bindings -> Sublime Text ✔
 
 5. tag 打完後按 tab 可以自動生成完整的程式
    Ex. h1 + tab => <h1> </h1>
+   EX. div.relative + tab => <div class="relative"> </div> 
