@@ -1,5 +1,6 @@
 .botton{
   display: inline-block; // 保持行內元素，但是所有margin, padding都適用
+    Ps. inline 只有左右padding能改
   border: solid 1px black; // 邊界寬度
   border-radius: 5px; // 圓角
   
