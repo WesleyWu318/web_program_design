@@ -8,7 +8,9 @@
   padding-left: 20px; // 字與左邊界的間距(覆蓋前面設定)
   padding-right: 20px; // 字與右邊界的間距(覆蓋前面設定)
   
+  color: white // 字體顏色
   font-family: 微軟正黑體; // 字形
+  font-size: 20px // 字體大小
   letter-spacing: 1px; // 字間距
   
   background-color: #99ff33 // 背景顏色
