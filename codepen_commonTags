@@ -5,6 +5,8 @@
 
 <h1> text </h1> headline 主標題
 <h2>, <h3>, <h4>, <h5>, <h6> 次標題 ...次次標題...
+  Ex. <h1 style = "border : solid 5px green ; width: 400px ; height: 300px; background-color : #ccc"> 被綠色框框包住的灰色背景的標題字 </h1>
+  Ex. <h1 style = "color : #FFD600; letter-spacing : 10px;"> 間距10px空格的黃色標題字 </h1>
 
 <img scr=" " width=" "> image 插入圖片
   Ps. scr = 矽控整流器（Silicon Controlled Rectifier) 用途為存放網址
@@ -13,6 +15,8 @@
   Ps. href = URL 統一資源定位符（Uniform Resource Locator) 網頁位址
       target = "blank" //指定打開鏈接文檔的位置為新視窗
       
+----------------------------------------------------------      
+    
 <ol style = "margin-left:40px;">  orderlist 有項表
     <li> first </li>
     <li> second </li>
@@ -22,4 +26,7 @@
   
 <ul> </ul> unorderlist 無項表
 
-<div> </div> division 分割
+<div> text </div> division 分割
+<span> text </span> 強制不換行
+
+<hr> </hr> horizontal 水平線
