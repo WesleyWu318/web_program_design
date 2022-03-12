@@ -27,6 +27,8 @@
 <ul> </ul> unorderlist 無項表
 
 <div> text </div> division 分割
+  Ex. <div class = "button black_button">第一個按鈕</div> // 一次套用多個以上的class時，有一樣的樣式屬性設定的話，後面的會蓋掉前面的。
+  
 <span> text </span> 強制不換行
 
 <hr> </hr> horizontal 水平線
